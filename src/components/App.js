@@ -11,7 +11,6 @@ const settingValue = ()=>{
   setValues(newRef.current.value);
 }
 const focusInput = ()=>{
-  newRef.current.value="";
   newRef.current.focus();
 }
   return (
